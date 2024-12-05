@@ -1,4 +1,7 @@
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaLaravel, FaBootstrap } from "react-icons/fa";
+import crud from "/public/crud-web.jpg";
+import todo from "/public/to-do-list.jpg";
+import antport from "/public/ant-portfolio.jpg";
 
 const Projects = () => {
     return (
@@ -10,7 +13,7 @@ const Projects = () => {
                 <div className="p-4 border border-teal-50 rounded-xl shadow-lg bg-[#392259] transition duration-300 hover:scale-105">
                     <h3 className="mb-4 text-xl font-medium text-white">To Do List</h3>
                     <img
-                        src="/public/to-do-list.png"
+                        src={todo}
                         alt="To Do List"
                         className="w-full rounded-2xl h-auto object-cover"
                     />
@@ -42,7 +45,7 @@ const Projects = () => {
                 <div className="p-4 border border-teal-50 rounded-xl shadow-lg bg-[#392259] transition duration-300 hover:scale-105">
                     <h3 className="mb-4 text-xl font-medium text-white">Sistema CRUD para Productos</h3>
                     <img
-                        src="/public/crud-web.png"
+                        src={crud}
                         alt="Sistema CRUD"
                         className="w-full rounded-2xl h-auto object-cover"
                     />
@@ -75,7 +78,7 @@ const Projects = () => {
                 <div className="p-4 border border-teal-50 rounded-xl shadow-lg bg-[#392259] transition duration-300 hover:scale-105">
                     <h3 className="mb-4 text-xl font-medium text-white">Anterior Portfolio Personal</h3>
                     <img
-                        src="/public/ant-portfolio.png"
+                        src={antport}
                         alt="Portfolio Personal"
                         className="w-full rounded-2xl h-auto object-cover"
                     />
