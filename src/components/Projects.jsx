@@ -83,7 +83,6 @@ const Projects = () => {
                         className="w-full rounded-2xl h-auto object-cover"
                     />
                     <div className="flex justify-center gap-4 mt-4 text-2xl text-white">
-                        <FaJs title="JavaScript" className="hover:text-yellow-500" />
                         <FaHtml5 title="HTML5" className="hover:text-orange-500" />
                         <FaCss3Alt title="CSS3" className="hover:text-blue-500" />
                     </div>
